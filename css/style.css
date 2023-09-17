@@ -1,0 +1,2214 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+:root {
+  --primary: #fff;
+  --light-primary: #a9c2cb;
+  --light: #020305;
+}
+html {
+  font-size: 10px;
+}
+body {
+  font-size: 10px;
+}
+/* ==================container===================== */
+.container {
+ 
+  width: 100%;
+  height: 200vh;
+}
+.navbar {
+ 
+  width: 80%;
+  height: 20vh;
+  display: flex;
+  flex-direction: row;
+  margin-inline: auto;
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+}
+.left-nav {
+ 
+  width: 30%;
+  height: 20vh;
+}
+.odyssey {
+ 
+  width: 100%;
+  height: 20vh;
+}
+.odyssey img {
+  width: 102.6px;
+  height: 16.016px;
+}
+.right-nav {
+
+  width: 70%;
+  height: 20vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.hamburger-icon{
+    width: 24px;
+height: 24px;
+display: none;
+
+}
+.list {
+  display: flex;
+  flex-direction: row;
+  gap: 100px;
+}
+.list li a {
+  color: var(--light);
+  font-family: Plus Jakarta Sans;
+  font-size: 9.009px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.sign-in {
+  width: 81px;
+  height: 33px;
+  border-radius: 10.01px;
+  background-color: #0d0f12;
+  box-shadow: 0px 9.5093px 22.52202px -5.00489px rgba(13, 15, 18, 0.5);
+  font-family: Plus Jakarta Sans;
+  font-size: 9.009px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  color: var(--primary);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.header {
+ 
+  width: 80%;
+  height: 100vh;
+  margin-inline: auto;
+  display: flex;
+  flex-direction: column;
+}
+.univers {
+ 
+  width: 100%;
+
+  background-image: url("../Rectangle\ 3.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 50vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.wonders {
+  
+  width: 40%;
+  height: 100vh;
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.head{
+  
+    width: 50%;
+}
+.astronomy{
+  
+    width: 70%;
+    height: 20vh;
+    margin-top: 200px;
+}
+.astronomy p{
+    color: #171E27;
+font-family: Plus Jakarta Sans;
+font-size: 9.009px;
+font-style: normal;
+font-weight: 500;
+line-height: 16.516px;
+}
+.video{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.video a{
+    width: 123px;
+    height: 41px;
+    border-radius: 10.01px;
+    background-color: #0D0F12;
+    box-shadow: 0px 9.5093px 22.52202px -5.00489px rgba(13, 15, 18, 0.50);
+    color: var(--primary);
+font-family: Plus Jakarta Sans;
+font-size: 12.012px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+}
+.video p{
+    color: var(--light);
+font-family: Plus Jakarta Sans;
+font-size: 12.012px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+margin-top: 10px;
+}
+.video img{
+    width: 24.59px;
+height: 25.912px;
+margin-top: 10px;
+}
+.univers h1 {
+  color: var(--primary);
+  font-family: Plus Jakarta Sans;
+  font-size: 32.031px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  margin-top: 10px;
+}
+
+.cosmonaut {
+ 
+  width: 60%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+.girl {
+  height: 75vh;
+}
+.total-time {
+ 
+  width: 232.227px;
+  height: 65.064px;
+  border-radius: 12.012px;
+  background: #020305;
+  box-shadow: 0px 10.00978px 19.51908px -6.00587px rgba(99, 117, 124, 0.4);
+  margin-left: 180px;
+  display: flex;
+  flex-direction: column;
+}
+.timing {
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.timing h2 {
+  color: var(--primary);
+  font-family: Plus Jakarta Sans;
+  font-size: 9.009px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.code p {
+  color: var(--primary);
+  font-family: Plus Jakarta Sans;
+  font-size: 8px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  letter-spacing: 6.006px;
+  margin-left: 32px;
+}
+.watch {
+  width: 8.263px;
+  height: 10.084px;
+  margin-left: 0;
+}
+
+.spacewalk {
+  
+  width: 168.665px;
+  height: 99.597px;
+  border-radius: 12.012px;
+  background: #fff;
+  box-shadow: 0px 10.00978px 19.51908px -6.00587px rgba(99, 117, 124, 0.4);
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 240px;
+  
+}
+.info {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  margin-top: 10px;
+}
+.info p {
+ 
+  width: 20.02px;
+  height: 20.02px;
+  border-radius: 6.006px;
+  background-color: var(--light-primary);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10px;
+}
+.info p img {
+  width: 9.927px;
+  height: 9.927px;
+}
+.info h2 {
+  font-family: Plus Jakarta Sans;
+  font-size: 9.009px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  color: var(--light);
+}
+.diagram {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.diagram:nth-child(1) {
+  width: 95.508px;
+  height: 49.283px;
+}
+.diagram:nth-child(2) {
+  width: 47.476px;
+  height: 47.401px;
+}
+.exercising {
+  
+  width: 133.13px;
+  height: 72.571px;
+  border-radius: 12.012px;
+  background: var(--primary);
+  box-shadow: 0px 2.00196px 2.00196px 0px rgba(255, 255, 255, 0.25),
+    0px 10.00978px 19.51908px -6.00587px rgba(99, 117, 124, 0.4);
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 180px;
+    right: 220px;
+}
+.most{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.most img{
+    width: 36.505px;
+height: 20.625px;
+margin-left: 10px;
+margin-top: 10px;
+}
+.most h2{
+    color: var(--light);
+font-family: Plus Jakarta Sans;
+font-size: 9.009px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+margin-top: 10px;
+}
+.process{
+    width: 96.68px;
+    height: 22.257px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+/* ====================main=========================== */
+.main{
+   
+    width: 80%;
+    height: 30vh;
+    margin-inline: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.main :nth-child(1){
+    width: 152.649px;
+height: 102.1px;
+opacity: 0.35;
+}
+.main :nth-child(2){
+    width: 57.056px;
+height: 15.515px;
+margin-top: 50px;
+}
+.main :nth-child(3){
+    width: 132.63px;
+height: 74.573px;
+margin-top: 20px;
+}
+.main :nth-child(4){
+    width: 160.157px;
+height: 51.05px;
+margin-top: 34px;
+}
+/* ======================section========================= */
+.space-enthusiasts{
+ 
+  width: 80%;
+  height: 80vh;
+  margin-inline: auto;
+  display: flex;
+  flex-direction: row;
+justify-content: space-around;
+}
+.left-space{
+
+width: 25%;
+height: 80vh;
+}
+.left-space h2{
+  color: var(--light);
+font-family: Plus Jakarta Sans;
+font-size: 32.031px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+.right-space{
+ 
+  width: 35%;
+  height: 80vh;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.right-space div{
+
+  width: 40%;
+  height: 32vh;
+}
+
+.physics{
+  width: 50.049px;
+height: 50.049px;
+border-radius: 12.012px;
+background-color: #A9C2CB;
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+align-items: flex-end;
+}
+.physics img{
+  width: 18.956px;
+height: 19.929px;
+}
+.astronomy-101 h2{
+  color: var(--light);
+font-family: Plus Jakarta Sans;
+font-size: 12.012px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+.information{
+  color: #171E27;
+font-family: Plus Jakarta Sans;
+font-size: 9.009px;
+font-style: normal;
+font-weight: 500;
+line-height: 16.516px;
+}
+.clipboard{
+  width: 50.049px;
+height: 50.049px;
+border-radius: 12.012px;
+background: #A9C2CB;
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+align-items: flex-end;
+}
+.clipboard img{
+  width: 17.498px;
+height: 20.44px
+}
+.latest-discoveries h2{
+  color: var(--light);
+font-family: Plus Jakarta Sans;
+font-size: 12.012px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+.latest-discoveries .information{
+  color: #171E27;
+font-family: Plus Jakarta Sans;
+font-size: 9.009px;
+font-style: normal;
+font-weight: 500;
+line-height: 16.516px; 
+}
+.space-exploration img{
+  width: 50.049px;
+height: 56.27px;
+}
+.space-exploration h2{
+  color: var(--light);
+  font-family: Plus Jakarta Sans;
+  font-size: 12.012px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+.space-exploration .information{
+  color: #171E27;
+font-family: Plus Jakarta Sans;
+font-size: 9.009px;
+font-style: normal;
+font-weight: 500;
+line-height: 16.516px;
+}
+.pie-chart{
+  width: 50.049px;
+height: 50.049px;
+border-radius: 12.012px;
+background-color: #A9C2CB;
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+align-items: flex-end;
+}
+.pie-chart img{
+  width: 19.415px;
+height: 20.412px;
+}
+.pie-chart h2{
+  color: var(--light);
+font-family: Plus Jakarta Sans;
+font-size: 12.012px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+.pie-chart .information{
+  color: #171E27;
+font-family: Plus Jakarta Sans;
+font-size: 9.009px;
+font-style: normal;
+font-weight: 500;
+line-height: 16.516px;
+}
+/* ======================educational resorces============================= */
+.educational-resorces{
+  width: 80%;
+  height: 80vh;
+  margin-inline: auto;
+  display: flex;
+  flex-direction: column;
+}
+.resources{
+
+  width: 100%;
+  height: 40vh;
+  margin-inline: auto;
+  background-image: url(../Rectangle\ 8.png);
+  background-position: center;
+  background-size: cover;
+ border-radius: 20.02px;;
+
+}
+
+.resources .head{
+  
+  width: 50%;
+  height: 20vh;
+  margin-inline: auto;
+}
+.resources .head h2{
+  color: var(--primary);
+text-align: center;
+font-family: Plus Jakarta Sans;
+font-size: 32.031px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+.card{
+ 
+  width: 80%;
+  height: 80vh;
+  margin-inline: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 70px;
+}
+.card div{
+
+  width: 226.221px;
+height: 217.212px;
+border-radius: 12.012px;
+background: var(--primary);
+box-shadow: 0px 10.00978px 19.51908px -6.00587px rgba(99, 117, 124, 0.20);
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+}
+.free-courses .number{
+  color: #A9C2CB;
+text-align: center;
+font-family: Plus Jakarta Sans;
+font-size: 32.031px;
+font-style: normal;
+font-weight: 800;
+line-height: 45.044px;
+margin-left: 10px;
+}
+.free-courses h2{
+  color: var(--light);
+font-family: Plus Jakarta Sans;
+font-size: 20.012px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+margin-left: 10px;
+}
+.free-courses .information{
+  color: #171E27;
+font-family: Plus Jakarta Sans;
+font-size: 9.009px;
+font-style: normal;
+font-weight: 500;
+line-height: 16.516px;
+margin-left: 10px;
+}
+.resources-teacher .number{
+  color: #A9C2CB;
+  text-align: center;
+  font-family: Plus Jakarta Sans;
+  font-size: 32.031px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 45.044px;
+  margin-left: 10px;
+}
+.resources-teacher h2{
+  color: var(--light);
+  font-family: Plus Jakarta Sans;
+  font-size: 18.012px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  margin-left: 10px;
+}
+.resources-teacher .information{
+  color: #171E27;
+  font-family: Plus Jakarta Sans;
+  font-size: 9.009px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16.516px;
+  margin-left: 10px;
+}
+.book-reviews .number{
+  color: #A9C2CB;
+  text-align: center;
+  font-family: Plus Jakarta Sans;
+  font-size: 32.031px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 45.044px;
+  margin-left: 10px;
+}
+.book-reviews h2{
+  color: var(--light);
+  font-family: Plus Jakarta Sans;
+  font-size: 18.012px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  margin-left: 10px;
+}
+.book-reviews .information{
+  color: #171E27;
+  font-family: Plus Jakarta Sans;
+  font-size: 9.009px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16.516px;
+  margin-left: 10px;
+}
+/* ===================our community=========================== */
+.our-community{
+ 
+  width: 80%;
+  height: 80vh;
+  margin-inline: auto;
+  background-image: url(../Rectangle\ 504.png);
+  background-position: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+display: flex;
+flex-direction: column;
+gap: 20px;
+
+}
+.our-community h2{
+  color: var(--primary);
+font-family: Plus Jakarta Sans;
+font-size: 32.031px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+margin-top: 100px;
+margin-left: 50px;
+}
+.our-community .body{
+  
+  width: 30%;
+  margin-left: 50px;
+}
+.our-community p{
+  color: var(--primary);
+font-family: Plus Jakarta Sans;
+font-size: 9.009px;
+font-style: normal;
+font-weight: 400;
+line-height: 17.267px;
+}
+.email{
+  display:flex;
+  flex-direction: row;
+  gap: 20px;
+}
+.email input{
+
+  width: 325px;
+  height: 41px;
+  border-radius: 12.012px;
+  background-color: var(--primary);
+  margin-left: 40px;
+}
+.email a{
+  width: 114px;
+  height: 41px;
+  border-radius: 10.01px;
+  box-shadow: 0px 9.5093px 22.52202px -5.00489px rgba(13, 15, 18, 0.50);
+  background-color: #A9C2CB;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  color:var(--primary);
+  font-family: Plus Jakarta Sans;
+  font-size: 12.012px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+/* =========================footer=========================== */
+.footer{
+
+  width: 80%;
+  height: 20vh;
+  margin-inline: auto;
+  display: flex;
+  flex-direction: column;
+}
+.privacy{
+
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.privacy img{
+  width: 102.6px;
+  height: 16.016px;
+}
+.privacy .connection{
+
+  width: 30%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  gap: 20px;
+}
+.privacy .connection a{
+  color: #020305;
+font-family: Plus Jakarta Sans;
+font-size: 9.009px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.policy{
+
+  width:20% ;
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  justify-content: space-between;
+}
+.policy a{
+  color: #171E27;
+font-family: Plus Jakarta Sans;
+font-size: 9.009px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.link{
+ 
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.link a{
+  color: #5C5050;
+font-family: Plus Jakarta Sans;
+font-size: 9.009px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+
+}
+/* =================media======================= */
+@media screen and (max-width:1366px;) {
+    .container {
+ 
+        width: 100%;
+        height: 200vh;
+      }
+      .navbar {
+       
+        width: 80%;
+        height: 20vh;
+        display: flex;
+        flex-direction: row;
+        margin-inline: auto;
+        display: flex;
+        flex-direction: row;
+        margin-top: 20px;
+      }
+      .left-nav {
+       
+        width: 30%;
+        height: 20vh;
+      }
+      .odyssey {
+       
+        width: 100%;
+        height: 20vh;
+      }
+      .odyssey img {
+        width: 102.6px;
+        height: 16.016px;
+      }
+      .right-nav {
+      
+        width: 70%;
+        height: 20vh;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+      }
+       .hamburger-icon{
+        width: 24px;
+    height: 24px;
+    display: none;
+    }
+      .list {
+        display: flex;
+        flex-direction: row;
+        gap: 100px;
+      }
+      .list li a {
+        color: var(--light);
+        font-family: Plus Jakarta Sans;
+        font-size: 9.009px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+      }
+      .sign-in {
+        width: 81px;
+        height: 33px;
+        border-radius: 10.01px;
+        background-color: #0d0f12;
+        box-shadow: 0px 9.5093px 22.52202px -5.00489px rgba(13, 15, 18, 0.5);
+        font-family: Plus Jakarta Sans;
+        font-size: 9.009px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        color: var(--primary);
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+      }
+      .header {
+       
+        width: 80%;
+        height: 100vh;
+        margin-inline: auto;
+        display: flex;
+        flex-direction: column;
+      }
+      .univers {
+       
+        width: 100%;
+      
+        background-image: url("../Rectangle\ 3.png");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 50vh;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+      }
+      .wonders {
+        
+        width: 40%;
+        height: 100vh;
+        margin-left: 20px;
+        display: flex;
+        flex-direction: column;
+      }
+      .head{
+        
+          width: 50%;
+      }
+      .astronomy{
+        
+          width: 70%;
+          height: 20vh;
+          margin-top: 200px;
+      }
+      .astronomy p{
+          color: #171E27;
+      font-family: Plus Jakarta Sans;
+      font-size: 9.009px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 16.516px;
+      }
+      .video{
+          display: flex;
+          flex-direction: row;
+          gap: 20px;
+      }
+      .video a{
+          width: 123px;
+          height: 41px;
+          border-radius: 10.01px;
+          background-color: #0D0F12;
+          box-shadow: 0px 9.5093px 22.52202px -5.00489px rgba(13, 15, 18, 0.50);
+          color: var(--primary);
+      font-family: Plus Jakarta Sans;
+      font-size: 12.012px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: normal;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      }
+      .video p{
+          color: var(--light);
+      font-family: Plus Jakarta Sans;
+      font-size: 12.012px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: normal;
+      margin-top: 10px;
+      }
+      .video img{
+          width: 24.59px;
+      height: 25.912px;
+      margin-top: 10px;
+      }
+      .univers h1 {
+        color: var(--primary);
+        font-family: Plus Jakarta Sans;
+        font-size: 32.031px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+        margin-top: 10px;
+      }
+      
+      .cosmonaut {
+       
+        width: 60%;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+      }
+      .girl {
+        height: 75vh;
+      }
+      .total-time {
+       
+        width: 232.227px;
+        height: 65.064px;
+        border-radius: 12.012px;
+        background: #020305;
+        box-shadow: 0px 10.00978px 19.51908px -6.00587px rgba(99, 117, 124, 0.4);
+        margin-left: 180px;
+        display: flex;
+        flex-direction: column;
+      }
+      .timing {
+        display: flex;
+        flex-direction: row;
+        margin-top: 10px;
+        margin-left: 10px;
+      }
+      .timing h2 {
+        color: var(--primary);
+        font-family: Plus Jakarta Sans;
+        font-size: 9.009px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+      }
+      .code p {
+        color: var(--primary);
+        font-family: Plus Jakarta Sans;
+        font-size: 8px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+        letter-spacing: 6.006px;
+        margin-left: 32px;
+      }
+      .watch {
+        width: 8.263px;
+        height: 10.084px;
+        margin-left: 0;
+      }
+      
+      .spacewalk {
+        
+        width: 168.665px;
+        height: 99.597px;
+        border-radius: 12.012px;
+        background: #fff;
+        box-shadow: 0px 10.00978px 19.51908px -6.00587px rgba(99, 117, 124, 0.4);
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 240px;
+        
+      }
+      .info {
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        margin-top: 10px;
+      }
+      .info p {
+       
+        width: 20.02px;
+        height: 20.02px;
+        border-radius: 6.006px;
+        background-color: var(--light-primary);
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-left: 10px;
+      }
+      .info p img {
+        width: 9.927px;
+        height: 9.927px;
+      }
+      .info h2 {
+        font-family: Plus Jakarta Sans;
+        font-size: 9.009px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        color: var(--light);
+      }
+      .diagram {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+      }
+      .diagram:nth-child(1) {
+        width: 95.508px;
+        height: 49.283px;
+      }
+      .diagram:nth-child(2) {
+        width: 47.476px;
+        height: 47.401px;
+      }
+      .exercising {
+        
+        width: 133.13px;
+        height: 72.571px;
+        border-radius: 12.012px;
+        background: var(--primary);
+        box-shadow: 0px 2.00196px 2.00196px 0px rgba(255, 255, 255, 0.25),
+          0px 10.00978px 19.51908px -6.00587px rgba(99, 117, 124, 0.4);
+          display: flex;
+          flex-direction: column;
+          position: absolute;
+          top: 180px;
+          right: 220px;
+      }
+      .most{
+          display: flex;
+          flex-direction: row;
+          gap: 10px;
+      }
+      .most img{
+          width: 36.505px;
+      height: 20.625px;
+      margin-left: 10px;
+      margin-top: 10px;
+      }
+      .most h2{
+          color: var(--light);
+      font-family: Plus Jakarta Sans;
+      font-size: 9.009px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: normal;
+      margin-top: 10px;
+      }
+      .process{
+          width: 96.68px;
+          height: 22.257px;
+          margin-left: 10px;
+          margin-top: 10px;
+      }
+      .main{
+         
+          width: 80%;
+          height: 30vh;
+          margin-inline: auto;
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+      }
+      
+      .main :nth-child(1){
+          width: 152.649px;
+      height: 102.1px;
+      opacity: 0.35;
+      }
+      .main :nth-child(2){
+          width: 57.056px;
+      height: 15.515px;
+      margin-top: 50px;
+      }
+      .main :nth-child(3){
+          width: 132.63px;
+      height: 74.573px;
+      margin-top: 20px;
+      }
+      .main :nth-child(4){
+          width: 160.157px;
+      height: 51.05px;
+      margin-top: 34px;
+      }
+      .space-enthusiasts{
+      
+        width: 80%;
+        height: 80vh;
+        margin-inline: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+      }
+      .left-space{
+   
+      width: 25%;
+      height: 80vh;
+      }
+      .left-space h2{
+        color: var(--light);
+      font-family: Plus Jakarta Sans;
+      font-size: 32.031px;
+      font-style: normal;
+      font-weight: 800;
+      line-height: normal;
+      }
+      .right-space{
+     
+        width: 55%;
+        height: 80vh;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 20px;
+      }
+      .right-space div{
+       
+        width: 40%;
+        height: 32vh;
+      }
+      
+      .physics{
+        width: 50.049px;
+      height: 50.049px;
+      border-radius: 12.012px;
+      background-color: #A9C2CB;
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-start;
+      align-items: flex-end;
+      }
+      .physics img{
+        width: 18.956px;
+      height: 19.929px;
+      }
+      .astronomy-101 h2{
+        color: var(--light);
+      font-family: Plus Jakarta Sans;
+      font-size: 12.012px;
+      font-style: normal;
+      font-weight: 800;
+      line-height: normal;
+      }
+      .information{
+        color: #171E27;
+      font-family: Plus Jakarta Sans;
+      font-size: 9.009px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 16.516px;
+      }
+      .clipboard{
+        width: 50.049px;
+      height: 50.049px;
+      border-radius: 12.012px;
+      background: #A9C2CB;
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-start;
+      align-items: flex-end;
+      }
+      .clipboard img{
+        width: 17.498px;
+      height: 20.44px
+      }
+      .latest-discoveries h2{
+        color: var(--light);
+      font-family: Plus Jakarta Sans;
+      font-size: 12.012px;
+      font-style: normal;
+      font-weight: 800;
+      line-height: normal;
+      }
+      .latest-discoveries .information{
+        color: #171E27;
+      font-family: Plus Jakarta Sans;
+      font-size: 9.009px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 16.516px; 
+      }
+      .space-exploration img{
+        width: 50.049px;
+      height: 56.27px;
+      }
+      .space-exploration h2{
+        color: var(--light);
+        font-family: Plus Jakarta Sans;
+        font-size: 12.012px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+      }
+      .space-exploration .information{
+        color: #171E27;
+      font-family: Plus Jakarta Sans;
+      font-size: 9.009px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 16.516px;
+      }
+      .pie-chart{
+        width: 50.049px;
+      height: 50.049px;
+      border-radius: 12.012px;
+      background-color: #A9C2CB;
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-start;
+      align-items: flex-end;
+      }
+      .pie-chart img{
+        width: 19.415px;
+      height: 20.412px;
+      }
+      .pie-chart h2{
+        color: var(--light);
+      font-family: Plus Jakarta Sans;
+      font-size: 12.012px;
+      font-style: normal;
+      font-weight: 800;
+      line-height: normal;
+      }
+      .pie-chart .information{
+        color: #171E27;
+      font-family: Plus Jakarta Sans;
+      font-size: 9.009px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 16.516px;
+      }
+      .educational-resorces{
+
+        width: 80%;
+        height: 120vh;
+        margin-inline: auto;
+        display: flex;
+        flex-direction: column;
+      }
+      .resources{
+      
+        width: 100%;
+        height: 40vh;
+        margin-inline: auto;
+        background-image: url(../Rectangle\ 8.png);
+        background-position: center;
+        background-size: cover;
+       border-radius: 20.02px;;
+      
+      }
+      
+      .resources .head{
+        
+        width: 50%;
+        height: 20vh;
+        margin-inline: auto;
+      }
+      .resources .head h2{
+        color: var(--primary);
+      text-align: center;
+      font-family: Plus Jakarta Sans;
+      font-size: 32.031px;
+      font-style: normal;
+      font-weight: 800;
+      line-height: normal;
+      }
+      .card{
+       
+        width: 80%;
+        height: 80vh;
+        margin-inline: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin-top: 70px;
+      }
+      .card div{
+      
+        width: 226.221px;
+      height: 217.212px;
+      border-radius: 12.012px;
+      background: var(--primary);
+      box-shadow: 0px 10.00978px 19.51908px -6.00587px rgba(99, 117, 124, 0.20);
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      }
+      .free-courses .number{
+        color: #A9C2CB;
+      text-align: center;
+      font-family: Plus Jakarta Sans;
+      font-size: 32.031px;
+      font-style: normal;
+      font-weight: 800;
+      line-height: 45.044px;
+      margin-left: 10px;
+      }
+      .free-courses h2{
+        color: var(--light);
+      font-family: Plus Jakarta Sans;
+      font-size: 20.012px;
+      font-style: normal;
+      font-weight: 800;
+      line-height: normal;
+      margin-left: 10px;
+      }
+      .free-courses .information{
+        color: #171E27;
+      font-family: Plus Jakarta Sans;
+      font-size: 9.009px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 16.516px;
+      margin-left: 10px;
+      }
+      .resources-teacher .number{
+        color: #A9C2CB;
+        text-align: center;
+        font-family: Plus Jakarta Sans;
+        font-size: 32.031px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: 45.044px;
+        margin-left: 10px;
+      }
+      .resources-teacher h2{
+        color: var(--light);
+        font-family: Plus Jakarta Sans;
+        font-size: 18.012px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+        margin-left: 10px;
+      }
+      .resources-teacher .information{
+        color: #171E27;
+        font-family: Plus Jakarta Sans;
+        font-size: 9.009px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 16.516px;
+        margin-left: 10px;
+      }
+      .book-reviews .number{
+        color: #A9C2CB;
+        text-align: center;
+        font-family: Plus Jakarta Sans;
+        font-size: 32.031px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: 45.044px;
+        margin-left: 10px;
+      }
+      .book-reviews h2{
+        color: var(--light);
+        font-family: Plus Jakarta Sans;
+        font-size: 18.012px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+        margin-left: 10px;
+      }
+      .book-reviews .information{
+        color: #171E27;
+        font-family: Plus Jakarta Sans;
+        font-size: 9.009px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 16.516px;
+        margin-left: 10px;
+      }
+      .our-community{
+ 
+        width: 80%;
+        height: 80vh;
+        margin-inline: auto;
+        background-image: url(../Rectangle\ 504.png);
+        background-position: cover;
+        background-size: cover;
+        background-repeat: no-repeat;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      
+      }
+      .our-community h2{
+        color: var(--primary);
+      font-family: Plus Jakarta Sans;
+      font-size: 32.031px;
+      font-style: normal;
+      font-weight: 800;
+      line-height: normal;
+      margin-top: 100px;
+      margin-left: 50px;
+      }
+      .our-community .body{
+        
+        width: 30%;
+        margin-left: 50px;
+      }
+      .our-community p{
+        color: var(--primary);
+      font-family: Plus Jakarta Sans;
+      font-size: 9.009px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 17.267px;
+      }
+      .email{
+        display:flex;
+        flex-direction: row;
+        gap: 20px;
+      }
+      .email input{
+      
+        width: 325px;
+        height: 41px;
+        border-radius: 12.012px;
+        background-color: var(--primary);
+        margin-left: 40px;
+      }
+      .email a{
+        width: 114px;
+        height: 41px;
+        border-radius: 10.01px;
+        box-shadow: 0px 9.5093px 22.52202px -5.00489px rgba(13, 15, 18, 0.50);
+        background-color: #A9C2CB;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        color:var(--primary);
+        font-family: Plus Jakarta Sans;
+        font-size: 12.012px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+      }
+      .footer{
+
+        width: 80%;
+        height: 20vh;
+        margin-inline: auto;
+        display: flex;
+        flex-direction: column;
+      }
+      .privacy{
+      
+        width: 100%;
+        height: 10vh;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+      }
+      .privacy img{
+        width: 102.6px;
+        height: 16.016px;
+      }
+      .privacy .connection{
+      
+        width: 30%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        gap: 20px;
+      }
+      .privacy .connection a{
+        color: #020305;
+      font-family: Plus Jakarta Sans;
+      font-size: 9.009px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: normal;
+      }
+      .policy{
+      
+        width:20% ;
+        display: flex;
+        flex-direction: row;
+        gap: 30px;
+        justify-content: space-between;
+      }
+      .policy a{
+        color: #171E27;
+      font-family: Plus Jakarta Sans;
+      font-size: 9.009px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: normal;
+      }
+      .link{
+       
+        width: 100%;
+        height: 10vh;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+      }
+      .link a{
+        color: #5C5050;
+      font-family: Plus Jakarta Sans;
+      font-size: 9.009px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: normal;
+      
+      }
+      
+      
+      
+}
+@media screen and (max-width:600px) {
+.container{
+  
+    width: 100%;
+    height: 4445px;
+}
+.navbar{
+    
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.left-nav .odyssey img{
+    width: 128.125px;
+height: 20px;
+}
+.right-nav{
+    display: none;
+}
+.hamburger-icon{
+    display: inline-block;
+    width: 24px;
+height: 24px;
+}
+.header{
+ 
+    width: 100%;
+    height: 200vh;
+    display: flex;
+    flex-direction: column;
+   
+}
+.univers{
+   
+    width: 100%;
+    height: 100vh;
+
+}
+.wonders{
+ 
+    width: 100%;
+    height: 20vh;
+   background-position: center;
+   background-size: cover; 
+}
+
+.wonders .head{
+  
+    width: 100%;
+    height: 20vh;
+margin-left: 100px;
+margin-top: 20px;
+
+}
+.wonders h1{
+    color: var(--primary);
+font-family: Plus Jakarta Sans;
+font-size: 3.2em;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+margin-top: 40px;
+}
+.cosmonaut .lost-space .girl {
+    position: absolute;
+    top: 350px;
+    right: 120px;
+   
+   
+    width: 294px;
+height: 414px;
+}
+.spacewalk{
+ 
+    width: 172px;
+height: 117px;
+border-radius: 24px;
+background: var(--primary);
+box-shadow: 0px 20px 39px -12px rgba(99, 117, 124, 0.40);
+position: absolute;
+right: 250px;
+top: 550px;
+}
+.spacewalk .info{
+    gap: 10px;
+}
+.spacewalk .info img{
+    width: 32px;
+height: 32px;
+margin-left: 10px;
+}
+.spacewalk .info h2{
+    color: var(--light);
+font-family: Plus Jakarta Sans;
+font-size: 14px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.diagram{
+    gap: 10px;
+}
+.diagram :nth-child(1){
+    width: 95px;
+height: 49px;
+margin-left: 10px;
+}
+.diagram :nth-child(2){
+    width: 47px;
+height: 47px;
+}
+.exercising{
+    width: 149px;
+    height: 97px;
+    border-radius: 24px;
+background: var(--primary);
+box-shadow: 0px 4px 4px 0px rgba(255, 255, 255, 0.25), 0px 20px 39px -12px rgba(99, 117, 124, 0.40);
+position: absolute;
+top: 450px;
+right: 100px;
+}
+.most img {
+    width: 32px;
+height: 32px;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+}
+.most h2{
+    color: var(--light);
+font-family: Plus Jakarta Sans;
+font-size: 14px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.process{
+    width: 125px;
+height: 29px;
+}
+.total-time{
+
+    width: 318px;
+height: 88px;
+border-radius: 24px;
+background: var(--light);
+box-shadow: 0px 20px 39px -12px rgba(99, 117, 124, 0.40);
+position: absolute;
+top: 700px; right: 100px;
+}
+.timing img{
+    width: 32px;
+height: 32px;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+}
+.timing h2{
+    color: #FFF;
+font-family: Plus Jakarta Sans;
+font-size: 14px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+margin-left: 10px;
+}
+
+.watch{
+    display: none;
+}
+.code{
+    color: #FFF;
+font-family: Plus Jakarta Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+letter-spacing: 8px;
+margin-left: 20px;
+}
+
+.astronomy p{
+    color: #171E27;
+font-family: Plus Jakarta Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 26px;
+position: absolute;
+top: 950px;
+}
+.video a{
+    width: 194px;
+    height: 65px;
+    border-radius: 16px;
+    box-shadow: 0px 19px 45px -10px rgba(13, 15, 18, 0.50);
+    background-color: #0D0F12;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 1100px;
+}
+.video p{
+    width: 124px;
+    height: 25px;
+    color: #020305;
+font-family: Plus Jakarta Sans;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+position: absolute;
+top: 1200px;
+}
+.video img{
+    width: 40px;
+height: 40px;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+position: absolute;
+top: 1200px; left: 130px;
+}
+.main{
+    width: 70%;
+    height: 40vh;
+    margin-inline: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.main .space-logo{
+   order: -4;
+}
+.main .boeing-logo{
+    order: -3;
+}
+.main .nasa-logo{
+    order: -2;
+}
+.main .astroscale-logo{
+    order: -1;
+}
+.space-enthusiasts{
+
+  width: 80%;
+  height: 180vh;
+  display: flex;
+  flex-direction: column;
+  margin-inline: auto;
+}
+.left-space{
+
+  width: 75%;
+  height: 40vh;
+  margin-inline: auto;
+}
+.right-space{
+
+  width: 100%;
+  height: 200vh;
+  display: flex;
+ flex-direction: column;
+ align-items: flex-start;
+}
+.right-space div{
+  width: 80%;
+  height: 30vh;
+}
+.astronomy-101{
+
+  width: 100%;
+  height: 30vh;
+  display: flex;
+  flex-direction: column;
+}
+.astronomy-101 .physics{
+  width: 52px;
+height: 52px;
+border-radius: 12px;
+background-color: #A9C2CB;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+}
+.astronomy-101 .physics img{
+  width: 24px;
+height: 24px;
+}
+.astronomy-101 h2{
+  color: var(--light);
+font-family: Plus Jakarta Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+.astronomy-101 .information{
+  color: #171E27;
+font-family: Plus Jakarta Sans;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: 24px; 
+}
+.latest-discoveries{
+
+  width: 100%;
+  height: 30vh;
+  display: flex;
+  flex-direction: column;
+}
+.latest-discoveries .clipboard{
+  width: 52px;
+  height: 52px;
+  border-radius: 12px;
+  background-color: #A9C2CB;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.clipboard img{
+  width: 24px;
+  height: 24px;
+}
+.latest-discoveries h2{
+  color: var(--light);
+font-family: Plus Jakarta Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+.latest-discoveries .information{
+  color: #171E27;
+font-family: Plus Jakarta Sans;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: 24px;
+}
+.space-exploration{
+
+  width: 80%;
+  height: 30vh;
+  display: flex;
+  flex-direction: column;
+}
+.space-exploration img{
+  width: 52px;
+height: 52px;
+}
+.space-exploration h2{
+  color: var(--light);
+  font-family: Plus Jakarta Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+.space-exploration .information{
+  color: #171E27;
+font-family: Plus Jakarta Sans;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: 24px;
+}
+.space-technology{
+
+  width: 80%;
+  height: 30vh;
+display: flex;
+flex-direction: column;
+}
+.space-technology .pie-chart{
+  width: 52px;
+  height: 52px;
+  border-radius: 12px;
+  background-color: #A9C2CB;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.space-technology .pie-chart img{
+  width: 24px;
+  height: 24px;
+}
+.space-technology h2{
+  color: var(--light);
+font-family: Plus Jakarta Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+.space-technology .information{
+  color: #171E27;
+font-family: Plus Jakarta Sans;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: 24px;
+}
+.educational-resorces{
+ 
+  width: 100%;
+  height: 140vh;
+  display: flex;
+  flex-direction: column; 
+}
+.educational-resorces .resources{
+
+  width: 100%;
+  height: 393px;
+  background-image: url(../Rectangle\ 8.png);
+  background-size: cover;
+  background-position: left;
+  display: flex;
+  flex-direction: column;
+ 
+}
+.resources .head{
+ 
+  width: 380px;
+height: 393px;
+}
+.resources .head h2{
+  font-family: Plus Jakarta Sans;
+font-size: 32px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+.resources .card{
+display: flex;
+flex-direction: column;
+margin-left: 100px;
+margin-top: 140px;
+gap: 40px;
+}
+.resources .card div{
+  width: 327px;
+height: 288px;
+border-radius: 24px;
+background: var(--primary);
+box-shadow: 0px 20px 39px -12px rgba(99, 117, 124, 0.20);
+}
+.free-courses .number{
+  color: #A9C2CB;
+font-family: Plus Jakarta Sans;
+font-size: 32px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+.free-courses h2{
+  color: var(--light);
+font-family: Plus Jakarta Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+.free-courses .information{
+  color: #171E27;
+font-family: Plus Jakarta Sans;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: 24px;
+}
+.resources-teacher .number{
+  color: #A9C2CB;
+  font-family: Plus Jakarta Sans;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+.resources-teacher h2{
+  color: var(--light);
+  font-family: Plus Jakarta Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+.resources-teacher .information{
+  color: #171E27;
+  font-family: Plus Jakarta Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+}
+.book-reviews .number{
+  color: #A9C2CB;
+  font-family: Plus Jakarta Sans;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+.book-reviews h2{
+  color: var(--light);
+  font-family: Plus Jakarta Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+.book-reviews .information{
+  color: #171E27;
+  font-family: Plus Jakarta Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+}
+.our-community{
+
+  width: 375px;
+  height: 433px;
+  background-image: url(../Rectangle\ 504.png);
+  background-position: cover;
+  background-size: cover;
+}
+.our-community h2{
+  color: var(--primary);
+font-family: Plus Jakarta Sans;
+font-size: 40px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+margin-top: 10px;
+}
+.our-community .body{
+  color: var(--primary);
+  font-family: Plus Jakarta Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+}
+.our-community .email{
+  display: flex;
+  flex-direction: column;
+}
+.email input{
+  width: 327px;
+  height: 64px;
+  margin-inline: auto;
+}
+.email a{
+  width: 327px;
+  height: 67px;
+margin-inline: auto;
+color: var(--primary);
+font-family: Plus Jakarta Sans;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.footer{
+ 
+  width: 80%;
+  height: 80vh;
+  margin-inline: auto;
+  display: flex;
+  flex-direction: column;
+}
+.footer .privacy{
+ display: flex;
+ flex-direction: column;
+ justify-content: flex-start;
+ align-items: flex-start;
+}
+.privacy img{
+  width: 153.75px;
+height: 24px;
+margin-top: 40px;
+margin-left: 20px;
+}
+.privacy .connection {
+  display: flex;
+  flex-direction: column;
+
+  width: 40%;
+
+}
+.privacy .connection a{
+  color: #020305;
+font-family: Plus Jakarta Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+margin-left: 40px;
+margin-top: 20px;
+}
+.privacy .policy{
+  display: flex;
+  flex-direction: row;
+ 
+  width: 80%;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+.privacy .policy a{
+  color: #171E27;
+font-family: Plus Jakarta Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.footer .link{
+ 
+  width: 100%;
+  margin-top:300px ;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.footer .link a{
+  color: #5C5050;
+font-family: Plus Jakarta Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+margin-left: 20px;
+}
+
+}
+
+
